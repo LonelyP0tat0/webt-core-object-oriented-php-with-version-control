@@ -11,7 +11,7 @@ abstract class AbstractVideo implements InterfaceVideo{    //von abstrakten klas
 
     /**
      * @param string $title      
-     * @param string $origin     //Generiert Dokumentation von Attributen 
+     * @param string $origin     //Generiert Dokumentation von Attributen, wird verwendet, um sich im Code zurechtzufinden
      * @param string $id
      */
 
