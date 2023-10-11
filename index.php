@@ -30,12 +30,13 @@
     }
 
     h2 {
+        font-family: monospace;
         font-weight: lighter;
     }
 
     main {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: wrap;                /*hierdurch wird die seite responsive*/
         justify-content: space-around;
         padding-bottom: 10px;
         padding-top: 10px;
@@ -94,7 +95,7 @@
 </main>
 
     <footer>
-        <a href="https://www.youtube.com/channel/UCpJ6Dn01AqjvFVN2EiK72Ag" target="_blank"> For the original channel, click here </a>
+        <a href="https://www.youtube.com/channel/UCpJ6Dn01AqjvFVN2EiK72Ag" target="_blank"> To visit the original channel, click here </a>
     </footer>
 
 

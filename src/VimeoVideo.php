@@ -8,7 +8,7 @@ class VimeoVideo extends AbstractVideo {
 
     public function __construct(string $title, string $id)
     {
-        parent::__construct($title, "Vimeo", $id);
+        parent::__construct($title, "Vimeo", $id);             
     }
 
     /**
