@@ -4,7 +4,8 @@ namespace src;    //Hat nichts mit dem Ordner zu tun, gruppiert lediglich Klasse
 
 require_once "InterfaceVideo.php";  //Wenn es InterfaceVideo nicht gibt, läuft der code dieses files nichts  
 
-abstract class AbstractVideo implements InterfaceVideo{    //von abstrakten klassen sind keine instanzen möglich - man verwendet hier andere klassen mit extends abstrakte klasse 
+abstract class AbstractVideo implements InterfaceVideo{    //abstrakte klassen braucht man als basisklasse
+                                                //von abstrakten klassen sind keine instanzen möglich - man verwendet hier andere klassen mit extends abstrakte klasse 
     protected string $title;                    //Kann von anderen Klassen im CodeBlock verwendet werden, außerhalb aber nicht
     protected string $origin;
     protected string $id;
@@ -37,7 +38,7 @@ abstract class AbstractVideo implements InterfaceVideo{    //von abstrakten klas
 
     public function getOrigin(): string
     {
-        return "from " . $this->origin;
+        return "from " . $this->origin;    //zeigt origin von video (zb from youtube)
     }
 
     /**

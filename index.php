@@ -25,7 +25,7 @@
         margin-top: 5%;
         text-align: center;
         font-family: 'Special Elite', cursive;
-        font-size: 100px;
+        font-size: 80px;
         font-weight: lighter;
     }
 
@@ -50,13 +50,15 @@
     footer {
         padding: 30px;
         margin-top: 30px;
-        text-underline: none;
         text-align: center;
     }
 </style>
 
 <body>
-<h1>CryptTube</h1>
+
+<header>
+    <h1>CryptTube</h1>
+</header>
 <main>
     <?php
 
@@ -67,7 +69,7 @@
                 new \src\YouTubeVideo("LOOK-SEE | The Wedding Hand", "VUdR6vMucHU"),
                 new \src\YouTubeVideo("The Birch | The Protector", "SxQj0DumF8Y"),
                 new \src\YouTubeVideo("SOOT | Current | S1E1", "006-4r5g7S0"),
-                new \src\YouTubeVideo("The Birch | The Protector", "SxQj0DumF8Y"),
+                new \src\YouTubeVideo("The Burch | The Protector", "SxQj0DumF8Y"),
                 new \src\YouTubeVideo("LOOK-SEE | The Wedding Hand", "VUdR6vMucHU"),
                 new \src\VimeoVideo("The Drawing", "256141301"),
                 new \src\VimeoVideo("Close before Midnight", "157198166"),
@@ -87,7 +89,7 @@
 
             ];
 
-            foreach ($Videos as $video) {
+            foreach ($Videos as $video) {          //klein video ist der zähler
                 echo "<section><h2>" . $video->getTitle() . "</h2><p>" . $video->getOrigin() . "</p>" . $video->getIFrame() . "</section>";
     }
 
