@@ -15,7 +15,7 @@ class VimeoVideo extends AbstractVideo {
      * @return string
      */
     public function getIFrame(): string {
-        return '<iframe src="https://player.vimeo.com/video/' . $this->id . '" width="420" height="237" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>';
+        return '<iframe src="https://player.vimeo.com/video/' . $this->id . '?autoplay=1&loop=1&autopause=0" width="420" height="237" frameborder="0" allow="autoplay; fullscreen; picture-in-picture"></iframe>';
     }
 
 }
