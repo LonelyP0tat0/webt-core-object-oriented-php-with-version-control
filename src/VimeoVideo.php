@@ -8,7 +8,8 @@ class VimeoVideo extends AbstractVideo {
 
     public function __construct(string $title, string $id)
     {
-        parent::__construct($title, "Vimeo", $id);             
+        parent::__construct($title, "Vimeo", $id);             //ist das was von Abstractvideo extended wird -> geht nur mit konstruktor
+                                                               //(child has properties of parent)
     }
 
     /**
