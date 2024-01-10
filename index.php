@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
     <title>CryptTube</title>
     <link href="style.css" type="text/css" rel="stylesheet">
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -11,54 +11,11 @@
     <link href="https://fonts.googleapis.com/css2?family=Special+Elite&display=swap" rel="stylesheet">
 </head>
 
-<style>
-    * {
-        font-family: "Verdana", sans-serif;
-        color: #e3e3e3;
-    }
-
-    body {
-        background: linear-gradient(0deg, rgba(138,3,3,1) 0%, rgba(0,0,0,1) 50%, rgba(138,3,3,1) 100%);
-    }
-
-    h1 {
-        margin-top: 5%;
-        text-align: center;
-        font-family: 'Special Elite', cursive;
-        font-size: 80px;
-        font-weight: lighter;
-    }
-
-    h2 {
-        font-family: monospace;
-        font-weight: lighter;
-    }
-
-    main {
-        display: flex;
-        flex-wrap: wrap;                /*hierdurch wird die seite responsive*/
-        justify-content: space-around;
-        padding-bottom: 10px;
-        padding-top: 10px;
-    }
-
-    section {
-        padding: 30px;
-        width: 420px;
-    }
-/*Test*/
-    footer {
-        padding: 30px;
-        margin-top: 30px;
-        text-align: center;
-    }
-</style>
-
 <body>
 
-<header>
-    <h1>CryptTube</h1>
-</header>
+<h1>CryptTube</h1>
+
+
 <main>
     <?php
 
