@@ -52,6 +52,7 @@
             foreach ($Videos as $video) {
                 echo "<div class='col-lg-4 col-md-6 col-sm-12 mb-4'><section class='p-4'><h2>" . $video->getTitle() . "</h2><p>" . $video->getOrigin() . "</p>" . $video->getIFrame() . "</section></div>";
             }
+            
 
             ?>
 
